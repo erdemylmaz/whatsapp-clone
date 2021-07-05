@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- Style -->
+	<link rel="stylesheet" href="./style.css">
+	<!-- Icons -->
+	<script src="https://kit.fontawesome.com/fa178081cb.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="dark">
+	<div class="create-modal">
+		<div class="create-container">
+			<div class="create-header">
+				<div class="create-text">Create New Chat</div>
+				<div class="close-modal-btn"><i class="fas fa-times"></i></div>
+			</div>
+
+			<div class="create-form">
+				<input type="text" maxlength="20" class="create-input" placeholder="Name">
+				<div class="create-btn">Chat</div>
+			</div>
+		</div>
+	</div>
+	<div class="chats">
+		<div class="chats-header">
+			<div class="header-text">Chats</div>
+			<div class="create-new-chat-btn"><i class="fas fa-pen"></i></div>
+		</div>
+
+		<div class="chats-container">
+		</div>
+
+		</div>
+	</div>
+
+	<div class="container">
+
+		<div class="container-info">
+			<div class="show-hide-btn"><i class="fas fa-arrow-left to-left"></i></div>
+			<div class="chat-receiver-name">Erdem Yilmaz</div>
+			<div class="delete-chat-btn"><i class="fas fa-trash"></i></div>
+		</div>
+
+		<div class="container-header">
+			<div class="receiver-mode mode">Other</div>
+			<div class="sender-mode mode mode-active">You</div>
+		</div>
+
+		<div class="messages">
+		</div>
+
+		<div class="send-message">
+			<div class="send-form">
+				<input type="text" class="message-input" placeholder="Type a message">
+				<div class="send-btn"><i class="fas fa-paper-plane"></i></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- JavaScript -->
+	<script src="./script.js"></script>
+</body>
+
+</html>
